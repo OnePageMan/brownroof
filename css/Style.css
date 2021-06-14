@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Campton';
-    src: url('../camptonCampton-Black.woff2') format('woff2'),
-        url('../camptonCampton-Black.woff') format('woff');
+    src: url('../campton/Campton-Black.woff2') format('woff2'),
+        url('../campton/Campton-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -703,12 +703,13 @@ body{
 #AllTpLP h1{
     color: rgb(255, 255, 255);
     font-size: 50px;
-    font-size: 45px;
+    font-size: 40px;
     padding: 0 50px;
     padding-top: 310px;
     max-width: 400px;
     margin-top: 0px;
     text-align:  center;
+    margin-bottom: 10px;
 
 }
 
@@ -872,6 +873,7 @@ body{
     box-sizing: border-box;
     margin-right: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 #SecImg{
@@ -891,6 +893,34 @@ body{
     margin: auto;
 }
 
+#CtUsMail{
+    display:block;
+}
 
+#CtUsMail p{
+    font-size: 10px;
+    display: inline-block;
+}
+
+.iconSet{
+    display:block;
+    margin-left:0;
+}
+
+.SocialIcnsIcons{
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.emailLink{
+    display:flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#mainWrapper{
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
 
 }
