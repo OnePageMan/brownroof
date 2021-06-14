@@ -645,7 +645,7 @@ a:link    {color:#000000; background-color:transparent; text-decoration:none}
 {
 
 body{
-    font-family: campton;
+    font-family: 'Campton', Arial, sans-serif;
     background-color: #211B16;
     overflow-x: hidden !important;
     margin:0;
