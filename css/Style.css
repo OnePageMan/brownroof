@@ -48,13 +48,20 @@ a:link    {color:#000000; background-color:transparent; text-decoration:none}
 #TpNav{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.60);
     padding: 50px 0px 30px 0px;
 }
 
+#TpNav a{
+    /* height: 150px; */
+}
+
+
+
 #BRSLogo{
     width: 125px;
-    margin-top: -15px;
+    /* margin-top: -15px; */
     padding-right:40px;
 }
 
@@ -476,9 +483,9 @@ a:link    {color:#000000; background-color:transparent; text-decoration:none}
 body{
     font-family: campton;
     background-color: #211B16;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     margin:0;
-    width: 100vw;
+    width: 100vw !important;
     box-sizing: border-box;
     margin-right:0;
     
