@@ -659,6 +659,8 @@ body{
     
 }
 
+/* Navbar */
+
 #TpNav{
     display:flex;
     padding: 25px 20px;
@@ -695,7 +697,7 @@ body{
     display:none;
     position:absolute;
     z-index: 4;
-    background-color: #11100f;
+    background-color: #11100fd0;
     width: inherit;
     /* height: 40vh; */
     top: 10vh;
@@ -736,8 +738,7 @@ body{
 
 #AllTpLP h1{
     color: rgb(255, 255, 255);
-    font-size: 50px;
-    font-size: 40px;
+    font-size: 35px;
     padding: 0 50px;
     padding-top: 310px;
     max-width: 400px;
