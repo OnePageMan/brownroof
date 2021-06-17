@@ -653,7 +653,7 @@ body{
     background-color: #211B16;
     overflow-x: hidden !important;
     margin:0;
-    width: 100vw !important;
+    width: 100% !important;
     box-sizing: border-box;
     margin-right:0;
     
@@ -669,6 +669,7 @@ body{
     width: inherit;
     box-sizing: border-box;
     height: 10vh;
+    margin: auto;
 }
 
 #TpNav #logoLink{
@@ -698,7 +699,7 @@ body{
     position:absolute;
     z-index: 4;
     background-color: #11100fd0;
-    width: inherit;
+    width: 100%;
     /* height: 40vh; */
     top: 10vh;
     margin:0;
@@ -957,5 +958,349 @@ body{
     width: 100vw !important;
     overflow-x: hidden !important;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*This is the beginning of the tablet view*/
+
+@media (max-width: 1280px) {
+
+
+    body{
+        font-family: 'Campton', Arial, sans-serif;
+        background-color: #211B16;
+        overflow-x: hidden;
+    }
+
+    a:link    {color:#000000; background-color:transparent; text-decoration:none}
+
+
+
+    /*This is the div for all the top section for the landing page*/
+#AllTpLP{
+    background-image: url("TopHomeImage.jpg");
+    background-size: cover;
+    width: auto;
+    Height: 700px;
+    margin: -9px;
+    text-align: center;
+}
+
+#AllTpLP h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 400px;
+    font-size: 4em;
+    max-width: 800px;
+    justify-items: center;
+    margin: auto;
+
+}
+
+
+/*This is the div for the navigation on the top*/
+
+.horLine{
+    display: none;
+}
+
+#hamburger, #close{
+    display:none;
+}
+
+#AlltpNav{
+    margin: auto;
+}
+
+#TpNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 50px 0px 30px 0px;
+}
+
+#TpNav #logoLink{
+    /* height: 150px; */
+}
+
+
+
+#BRSLogo{
+    width: 125px;
+    /* margin-top: -15px; */
+    padding-right:40px;
+}
+
+#lisLst{
+    padding: 0px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -0.2%;
+
+}
+
+#lisLst li {
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding-inline: 90px;
+}
+
+#lisLst li a {
+    color: white;
+    display:inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/*THis is the beginning of the seond section for the website*/
+
+
+#nxtSect{
+    text-align: center;
+}
+
+#SecSectbgtxt{
+    color: white;
+}
+
+#secTwoImgs{
+    padding-left: -20px;
+}
+
+
+#secTwoImgOne{
+    margin-right:60px;
+    width: 290px;
+}
+
+#secTwoImgTwo{
+    width: 290px;
+}
+
+/*This is the div for the view more button*/
+
+#vwMor p{
+
+}
+
+
+#vwMorChld{
+    max-width: 200px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #211B16;
+    padding-left: 30px;
+}
+
+
+#vwMorChld:hover{
+    max-width: 200px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #181310;
+    padding-left: 30px;
+}
+
+
+
+#vwMorTxt{
+    color:#FFA300;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+#vwMorIcn{
+    padding-left: 20px;
+    width: 25px;
+}
+
+/*This is the div for the third section*/
+
+.thirdSect{
+    text-align: center;
+}
+
+#trdSectYemoja{
+    max-width: 1000px;
+}
+
+
+/*This is the div for the forth section of the website*/
+
+
+.forthSect{
+    display: flex;
+    max-width: 900px;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+#fstImg{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+}
+
+#fstImg:hover{
+    transform: translateY(20px);
+}
+
+
+#fthSectYemoja{
+    width: 550px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+
+#TxtInfo{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    padding-top: 250px;
+    margin-left: 40px;
+}
+
+#TxtInfo:hover{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+#SecImg{
+    position: relative;
+    margin-top: -38px;
+}
+
+
+#secimgDiv{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+}
+
+#secimgDiv:hover{
+    transform: translateY(20px);
+}
+
+
+
+#fthSectGboka{
+    width: 400px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 76px;
+
+
+}
+
+
+#TxtInfoGbo{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    padding-top: 250px;
+    margin-left: 180px;
+    margin-top: -100px;
+    width: 400px;
+}
+
+
+#TxtInfoGbo:hover{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+
+#trdimgDiv{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+    margin-top: 50px;
+}
+
+#trdimgDiv:hover{
+    transform: translateY(20px);
+}
+
+
+
+#fthSectTimi{
+    width: 400px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -32px;
+}
+
+
+
+#TxtInfoTimi{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    margin-left: 200px;
+    margin-top: -30px;
+    width: 300px;
+}
+
+#TxtInfoTimi:hover{
+    transform: translatex(00px);
+    opacity: 1;
+}
+
+
+
 
 }
